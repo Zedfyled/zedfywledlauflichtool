@@ -15,8 +15,8 @@ function App() {
   }, [speed]);
 
   return (
-    <div className="flex w-screen lg:h-screen items-center justify-center ">
-      <div className="mx-4 lg:w-2/3 xl:w-1/2 bg-white lg:mx-auto rounded shadow p-4 lg:h-auto relative">
+    <div className="flex w-full lg:h-full  items-center justify-center ">
+      <div className="mx-4  bg-white lg:mx-auto rounded shadow p-4 lg:h-auto relative">
         <div className="w-full flex flex-col text-center">
           <span className="font-medium text-xl py-2">WLED Percent Effekt - Geschwindigkeits Tool</span>
           <div>
