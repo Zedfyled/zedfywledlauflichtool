@@ -7,6 +7,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
+        dir: "docs",
         entryFileNames: 'plugin.js',
         assetFileNames: 'plugin.css',
         chunkFileNames: "chunk.js",
