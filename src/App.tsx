@@ -43,11 +43,6 @@ function App() {
             
           </div>
         </div>
-        <div className="absolute -bottom-7 w-full flex flex-row items-center justify-evenly">
-          <a href="https://www.zedfy.com" target="_blank" className="hover:text-blue-500 font-normal text-slate-800">www.zedfy.com</a>
-          <a href="https://www.youtube.com/zedfy_led" target="_blank" className="hover:text-blue-500 font-normal text-slate-800">youtube.com/zedfy_led</a>
-          <a href="https://www.zedfy.shop" target="_blank" className="hover:text-blue-500 font-normal text-slate-800">www.zedfy.shop</a>
-        </div>
       </div>
     </div>
   )
