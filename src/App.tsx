@@ -3,8 +3,8 @@ import { useEffect, useState } from "react"
 
 function App() {
 
-  const on = {"mainseg":0,"seg":[{"id":0,"grp":1,"spc":0,"of":0,"on":true,"frz":false,"bri":255,"cct":127,"set":0,"n":"","col":[[255,0,0],[0,0,0],[0,0,0]],"fx":98,"sx":128,"ix":100,"pal":0,"c1":128,"c2":128,"c3":16,"sel":true,"rev":false,"mi":false,"o1":false,"o2":false,"o3":false,"si":0,"m12":0}]};
-  const off = {"mainseg":0,"seg":[{"id":0,"grp":1,"spc":0,"of":0,"on":true,"frz":false,"bri":255,"cct":127,"set":0,"n":"","col":[],"fx":98,"sx":0,"ix":0,"pal":0,"c1":128,"c2":128,"c3":16,"sel":true,"rev":false,"mi":false,"o1":false,"o2":false,"o3":false,"si":0,"m12":0}]}
+  const on = {"mainseg":0,"seg":[{"id":0,"grp":1,"spc":0,"of":0,"on":true,"frz":false,"bri":255,"cct":127,"set":0,"n":"","col":[[255,0,0,0],[0,0,0,0],[0,0,0,0]],"fx":98,"sx":128,"ix":100,"pal":0,"c1":128,"c2":128,"c3":16,"sel":true,"rev":false,"mi":false,"o1":false,"o2":false,"o3":false,"si":0,"m12":0}]};
+  const off = {"mainseg":0,"seg":[{"id":0,"grp":1,"spc":0,"of":0,"on":true,"frz":false,"bri":255,"cct":127,"set":0,"n":"","col":[[],[],[]],"fx":98,"sx":0,"ix":0,"pal":0,"c1":128,"c2":128,"c3":16,"sel":true,"rev":false,"mi":false,"o1":false,"o2":false,"o3":false,"si":0,"m12":0}]}
   let [speed, setSpeed] = useState<number>(128);
   let [onEffect, setOnEffect] = useState<any>({...on});
   let [offEffect, setOffEffect] = useState<any>({...off});
